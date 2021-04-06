@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#headerindex
+{
+    background:#0475ba;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+}
+#headerindex h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.headerheader{
+    display: none;
+}
+#headerindex .headerheader{
+    font-size: 25px;
+    margin-right: 600px;
+}
+#headerindex .headerheader a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+#section{
+    font-size: 20px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    #section .name{
+        color: black;
+     margin-top: 80px;
+    }
+    .name p{
+        color:#0475ba;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    #section img{
+        border-radius: 50%;
+        margin-top: 30px;
+        box-shadow: 3px 3px 10px grey;
+    }
+    #more{
+        background-color:#0475ba;
+        height: 300px;
+        color:white ;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+    }
+    #pres h4{
+        color: white;
+        font-size: 27px;
+        margin-left: 400px;  
+    }
+    ul{
+        font-size: 18px;
+        list-style-type:dot;
+        margin-left: 450px;
+        margin-top: 40px;
+    } 
+    #experiences{
+        margin-top: 70px;
+        height: 400px;
+    }
+    #exp{
+        margin-left: 400px;
+       
+    }
+    h4{
+        color: #0475ba;
+        font-size: 27px;
+    }
+    .head { 
+       display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        font-size: 25px;
+        width: 700px;
+    }
+    .para{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    .head2{ 
+        display: flex;
+         align-items: flex-start;
+         flex-direction: row;
+         justify-content: space-between;
+         margin-top: 30px;
+         font-size: 25px;
+         width: 700px;
+     }
+     .para2{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 25px;
+        font-size: 17px;
+    }
+    #formations{
+        background-color: #0475ba;
+        height: 300px;
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+    }
+    #for h4{
+        font-size: 27px;
+        color: white;
+        margin-left: 400px;
+    }
+    .form{
+        display: flex;
+         align-items: flex-start;
+         flex-direction: row;
+         justify-content: space-between;
+         margin-top: 40px;
+         margin-left: 400px;
+         font-size: 20px;
+         width: 700px;
+         color: white;
+    }
+    .forma{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 400px;
+        font-size: 20px;
+        width: 700px;
+        color: white;
+    }
+    #passions{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #passions h4{
+        font-size: 27px;
+        color: #0475ba;
+        margin-right: 450px;
+    }
+    #passions p{
+        font-size: 20px;
+        margin-right: 260px;
+        margin-top: 40px;
+    }
+    #footer{
+        background-color:#0475ba;
+        margin-top: 70px;
+        color: white;
+        font-size: 20px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+    }
+    .last p{
+        margin-left: 100px;
+    }
+    .last1 p{
+        margin-left: 300px;
+    }
+    @media (min-width: 768px) {
+        .headerheader {
+          display: block;
+        }
+      }
+      /* @media only screen and (min-width: 768px) {
+        .job {
+          display: block;
+        }
+      } */
