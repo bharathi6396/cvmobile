@@ -14,7 +14,7 @@
 #headerindex h1{
     color: white;
     font-size: 25px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 .headerheader{
     display: none;
@@ -28,14 +28,14 @@
     margin: 10px;
     text-decoration: none;
 }
-#section{
+#ection{
     font-size: 20px;
-    height: 350px;
+    height: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
     }
-    #section .name{
+    #ection .name{
         color: black;
      margin-top: 80px;
     }
@@ -44,7 +44,8 @@
         font-size: 30px;
         margin-top: 30px;
     }
-    #section img{
+    #ection img{
+        margin-left: 20px;
         border-radius: 50%;
         margin-top: 30px;
         box-shadow: 3px 3px 10px grey;
@@ -54,31 +55,29 @@
         height: 300px;
         color:white ;
         display: flex;
-        align-items: center;
-        margin-top: 50px;
+        align-items:center;
+        /* margin-top: 10px;   */
     }
-    #pres h4{
+    #more h4{
         color: white;
         font-size: 27px;
-        margin-left: 400px;  
+        /* text-align: center; */
+        margin-left: 600px;  
     }
     ul{
         font-size: 18px;
         list-style-type:dot;
-        margin-left: 450px;
+        margin-left: 100px;
         margin-top: 40px;
     } 
     #experiences{
         margin-top: 70px;
         height: 400px;
     }
-    #exp{
-        margin-left: 400px;
-       
-    }
     h4{
         color: #0475ba;
         font-size: 27px;
+        text-align: center;
     }
     .head { 
        display: flex;
@@ -88,6 +87,7 @@
         margin-top: 50px;
         font-size: 25px;
         width: 700px;
+        margin-left: 70px;
     }
     .para{
         display: flex;
@@ -95,6 +95,7 @@
         flex-direction: column;
         margin-top: 25px;
         font-size: 17px;
+        margin-left: 70px;
     }
     .head2{ 
         display: flex;
@@ -104,6 +105,7 @@
          margin-top: 30px;
          font-size: 25px;
          width: 700px;
+         margin-left: 70px;    
      }
      .para2{
         display: flex;
@@ -111,6 +113,7 @@
         flex-direction: column;
         margin-top: 25px;
         font-size: 17px;
+        margin-left: 70px;
     }
     #formations{
         background-color: #0475ba;
@@ -122,7 +125,7 @@
     #for h4{
         font-size: 27px;
         color: white;
-        margin-left: 400px;
+        margin-left: 550px;
     }
     .form{
         display: flex;
@@ -130,7 +133,7 @@
          flex-direction: row;
          justify-content: space-between;
          margin-top: 40px;
-         margin-left: 400px;
+         margin-left: 70px;
          font-size: 20px;
          width: 700px;
          color: white;
@@ -141,7 +144,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin-top: 10px;
-        margin-left: 400px;
+        margin-left: 70px;
         font-size: 20px;
         width: 700px;
         color: white;
@@ -150,41 +153,66 @@
         height: 200px;
         display: flex;
         align-items: center;
-        flex-direction: column;
-        justify-content: center;
+        /* flex-direction: column; */
+        /* justify-content: center; */
     }
     #passions h4{
         font-size: 27px;
         color: #0475ba;
-        margin-right: 450px;
+        margin-left: 600px;
     }
     #passions p{
         font-size: 20px;
-        margin-right: 260px;
-        margin-top: 40px;
+        margin-top: 100px;
+       margin-left: -620px;
     }
     #footer{
         background-color:#0475ba;
-        margin-top: 70px;
+        /* margin-top: 70px; */
         color: white;
         font-size: 20px;
         height: 200px;
-        display: flex;
+        /* margin-bottom: 30px; */
+        /* display: flex;
         align-items: center;
+        flex-direction: column;
+        justify-content: center; */
+    }
+    .last{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-bottom: 40px;
+        padding-top: 30px;
     }
     .last p{
+        margin-left: 100px;
+        /* margin-top: 20px; */
+    }
+    .last1 p{
+        margin-left: 100px;
+
+    } 
+    /* .last p{
         margin-left: 100px;
     }
     .last1 p{
         margin-left: 300px;
+    } */
+   
+@media (min-width: 768px) {
+    .headerheader{
+        display: inline-block;
     }
-    @media (min-width: 768px) {
-        .headerheader {
-          display: block;
-        }
-      }
-      /* @media only screen and (min-width: 768px) {
-        .job {
-          display: block;
-        }
-      } */
+    #ection{
+        flex-direction: row;
+        justify-content: center;
+    }
+    #pres #formations #footer {
+        padding: 40px 100px 40px 100px;
+    }
+    #passions #experiences {
+        padding: 40px 100px 40px 100px;
+    }
+}
