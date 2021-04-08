@@ -1,6 +1,11 @@
-*{
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins.ttf')
+}
+    *{
     padding: 0;
     margin: 0;
+    font-family: 'poppins';
 }
 #headerindex
 {
@@ -168,8 +173,6 @@
     }
     #footer{
         background-color:#0475ba;
-        /* margin-top: 70px; */
-        color: white;
         font-size: 20px;
         height: 200px;
         /* margin-bottom: 30px; */
@@ -186,20 +189,16 @@
         margin-bottom: 40px;
         padding-top: 30px;
     }
-    .last p{
+    .last a{
         margin-left: 100px;
-        /* margin-top: 20px; */
+        color: white;
+    
     }
-    .last1 p{
-        margin-left: 100px;
+    .last1 i{
+        /* margin-left: 100px; */
+        color: white;
 
-    } 
-    /* .last p{
-        margin-left: 100px;
     }
-    .last1 p{
-        margin-left: 300px;
-    } */
    
 @media (min-width: 768px) {
     .headerheader{
