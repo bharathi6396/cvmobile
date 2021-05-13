@@ -1,0 +1,54 @@
+/* .error {
+    color: rgb(218, 126, 126);
+    font-style: italic;
+  }
+  .results-list img {
+    width: 150px;
+    margin-left: 8px;
+  }
+  .results-list p {
+    margin: 0;
+  }
+  .results-list .synopsis {
+    font-size: 14px;
+  }
+  .movie {
+    padding-bottom: 8px;
+    border-bottom:  1px solid rgb(211, 211, 211);
+  }
+  .page-link.current {
+    font-weight: bold;
+  }
+  .background-cuizine {
+    /* background: linear-gradient(0deg, rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(../img/header.jpg); */
+    /* background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+  } */
+  /*.background-cuizine {
+  background-image: url("img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  }*/
+/* nav, header {
+    background-color: rgb(0 0 0 / 80%);
+  } */ 
+#logo-tmdb img{
+    width: 150px;
+    height: auto;
+  }
+  nav{
+    background-color:rgb( 13, 37, 63);
+  }
+  button{
+      color: white;
+  }
+.logoPlus img{
+  height: auto;
+}
+.dropdown-item{
+  width: 10px;
+  height: 50px;
+}
+.

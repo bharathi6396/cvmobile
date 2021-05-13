@@ -1,0 +1,22 @@
+
+#logo-tmdb img{
+    width: 150px;
+    height: auto;
+  }
+  nav{
+    background-color:rgb( 13, 37, 63);
+  }
+.text{
+  display: block;
+  margin-left: 50px;
+}
+#carouselExampleSlidesOnly{
+  position: relative;
+  text-align: start;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}

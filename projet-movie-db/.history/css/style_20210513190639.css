@@ -1,0 +1,15 @@
+
+#logo-tmdb img{
+    width: 150px;
+    height: auto;
+  }
+  nav{
+    background-color:rgb( 13, 37, 63);
+  }
+.logoPlus img{
+  height: auto;
+}
+.dropdown-item{
+  width: 10px;
+  height: 50px;
+}
