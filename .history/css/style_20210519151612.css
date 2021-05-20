@@ -1,0 +1,317 @@
+
+#logo-tmdb img{
+    width: 150px;
+    height: auto;
+  }
+  nav{
+    background-color:rgb( 13, 37, 63);
+  }
+  ul li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+ padding: 3px 5px;
+  }
+  .nav-link img{
+    width: 20px;
+    height: 20px;
+  }
+  a.en{
+    width: 28px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    /* padding: 3px 5px; */
+    transition: linear .1s;
+    color: #fff;
+    font-weight: 600; 
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+  a.en:hover{
+    background-color: white;
+    color: black;
+  }
+#carouselExampleSlidesOnly{
+  position: relative;
+  text-align: start;
+  background-color: white;
+  color: black;
+
+}
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.input-group{
+  position: absolute;
+  top: 50px;
+}
+#boutton{
+  position: absolute;
+  top: 160px;
+  right: -50px;
+  background-color: turquoise;
+  border-color: turquoise;
+  border-radius: 20px;
+}
+#boutton:hover{
+  color: black;
+}
+#search-input{
+  border-radius: 20px;
+}
+.error {
+  display: block;
+  color: rgb(218, 126, 126);
+  font-style: italic;
+  background-color: white;
+}
+.results-list{
+  position: absolute;
+  top: 400px;
+  background-color: white;
+  
+}
+.results-list img {
+  width: 150px;
+  margin-left: 8px;
+}
+.results-list p {
+  margin: 0px;
+}
+.results-list .synopsis {
+  font-size: 14px;
+}
+.movie {
+  padding-bottom: 8px;
+  border-bottom:  1px solid rgb(211, 211, 211);
+}
+.class1 .p1{
+  color: gray;
+}
+.page-link{
+  position: absolute;
+  top: 170px;
+  left: 80px;
+  background-color:teal;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollmenu-popular a {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollmenu-popular p {
+  color: gray;
+  font-weight: normal;
+}
+div.scrollmenu-popular {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollside {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollside a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollside-free a,div.scrollside-trailers a {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollside-free p {
+  color: gray;
+  font-weight: normal;
+}
+div.scrollside-trailers p1 {
+  color:black;
+  font-weight: normal;
+}
+
+div.scrollside-free,div.scrollside-trailers {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+.movie-item iframe:hover{
+  width: 500px;
+
+}
+
+div.scrollmenu-tendance a{
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+div.scrollmenu-tendance p{
+  color: gray;
+  font-weight: normal;
+}
+div.scrollmenu-tendance{
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.change:hover{
+  color: aqua;
+}
+.movie-item img{
+  border-radius: 5%;
+}
+div#chumma{ 
+  background-color: white;
+
+}
+div.btn-group h3{
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+button.day,button.week,button.streaming,button.tv,button.rent,button.theatres,button.movies {
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 30%;
+  border-right-color: white;
+  border-bottom-color: white ;
+}
+button.day,button.week,button.streaming,button.tv,button.rent,button.theatres:hover{
+  background-color: rgb( 13, 37, 63);
+  color: aqua;
+}
+.purple img{
+height:400px;
+width: 100%;
+}
+.purple{
+  position: relative;
+  text-align: start;
+}
+.purple h4{
+  position: absolute;
+  top:70px;
+  left:50px;
+}
+.purple p{
+  position: absolute;
+  top:150px;
+  left:50px;
+  color: white;
+}
+.purple button{
+position: absolute;
+top:250px;
+left:50px;
+background-color: royalblue;
+}
+.purple ul{
+  position: absolute;
+top:150px;
+left:820px;
+color: white;
+}
+div.vote{
+  border: green 3px solid;
+  border-radius: 50%;
+  width: 30px;
+  /* position: absolute;
+  margin-right: 80px; */
+}
+div .low{
+  border-color: red;
+
+}
+footer{
+  background-color: white;
+}
+.bas .btn{
+  background-color:white;
+  color: turquoise;
+  font-weight: bolder;
+  font-size: 20px;
+  
+}
+/* footer */
+.bas img{
+  height: 94px; 
+  width:131px;
+}
+footer{
+  background-color:rgb( 13, 37, 63);
+}
+div.col-12 .please{
+ position: absolute;
+ top: 2940px;
+}
+div.col-12 img{
+  position: absolute;
+ top: 2750px;
+ left: 250px;
+}
+/* footer */
+span.glyphicon-plus{
+  visibility:hidden;
+  padding:5px 0;
+  z-index:1;
+  opacity:0;
+  transition: opacity.6s;
+  display: block;
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+ a.nav-link{
+   position: relative;
+   
+ }
+ .tooltip-bottom{
+   top: 135%;
+   left:50%;
+   margin-left: -60px;
+ }

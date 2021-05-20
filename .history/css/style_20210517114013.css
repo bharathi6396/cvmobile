@@ -1,0 +1,127 @@
+
+#logo-tmdb img{
+    width: 150px;
+    height: auto;
+  }
+  nav{
+    background-color:rgb( 13, 37, 63);
+  }
+#carouselExampleSlidesOnly{
+  position: relative;
+  text-align: start;
+  background-color: white;
+  color: black;
+
+}
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.input-group{
+  position: absolute;
+  top: 50px;
+}
+#boutton{
+  position: absolute;
+  top: 160px;
+  right: -50px;
+  background-color: turquoise;
+  border-color: turquoise;
+  border-radius: 20px;
+}
+#search-input{
+  border-radius: 20px;
+}
+.error {
+  display: block;
+  color: rgb(218, 126, 126);
+  font-style: italic;
+  background-color: white;
+}
+.results-list{
+  position: absolute;
+  top: 400px;
+  background-color: white;
+  
+}
+.results-list img {
+  width: 150px;
+  margin-left: 8px;
+}
+.results-list p {
+  margin: 0px;
+}
+.results-list .synopsis {
+  font-size: 14px;
+}
+.movie {
+  padding-bottom: 8px;
+  border-bottom:  1px solid rgb(211, 211, 211);
+}
+/* .page-link.current {
+  font-weight: bold;
+} */
+.class1 .p1{
+  color: gray;
+}
+.page-link{
+  position: absolute;
+  top: 170px;
+  left: 80px;
+  background-color:teal;
+}
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* div.scrollmenu a:hover {
+  background-color: #777;
+} */
+div.scrollmenu-tendance a {
+  display: inline-block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+/* div.scrollmenu-tendance a:hover {
+  background-color: #777;
+} */
+div.scrollmenu-tendance p {
+  color: gray;
+  font-weight: normal;
+}
+div.scrollmenu-tendance {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.change:hover{
+  color: aqua;
+}
+.movie-item img{
+  border-radius: 5%;
+}
+div#chumma{ 
+  background-color: white;
+
+}
+div.btn-group h3{
+  color: black;
+  display: block;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,55 @@
+
+#logo-tmdb img{
+    width: 150px;
+    height: auto;
+  }
+  nav{
+    background-color:rgb( 13, 37, 63);
+    po
+  }
+#carouselExampleSlidesOnly{
+  position: relative;
+  text-align: start;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+.input-group{
+  position: absolute;
+  top: 50px;
+}
+#boutton{
+  position: absolute;
+  top: 160px;
+  right: -50px;
+  background-color: turquoise;
+  border-color: turquoise;
+  border-radius: 20px;
+}
+#search-input{
+  border-radius: 20px;
+}
+.error {
+  color: rgb(218, 126, 126);
+  font-style: italic;
+}
+.results-list img {
+  width: 150px;
+  margin-left: 8px;
+}
+.results-list p {
+  margin: 0;
+}
+.results-list .synopsis {
+  font-size: 14px;
+}
+.movie {
+  padding-bottom: 8px;
+  border-bottom:  1px solid rgb(211, 211, 211);
+}
+.page-link.current {
+  font-weight: bold;
+}
